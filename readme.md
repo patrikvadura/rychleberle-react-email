@@ -3,6 +3,8 @@
 Tento projekt obsahuje HTML podpis vytvoreny v React Email (`emails/index.tsx`).
 Nize je jednoduchy postup, jak podpis pripravit a vlozit do Apple Mail, Outlook a Gmail tak, aby se zobrazoval co nejkonzistentneji.
 
+https://patrikvadura.github.io/rychleberle-react-email/
+
 ## 1) Priprava podpisu (jednou po kazde uprave)
 
 1. Otevri terminal v `react-email`.
@@ -111,6 +113,7 @@ Poznamka: Outlook desktop ma nejprisnejsi rendering. Vzdy testuj i reply/forward
 6. Odesli test aspon do Apple Mail a Outlooku.
 
 Poznamky pro Gmail:
+
 - Gmail muze obcas upravit mezery/radkovani po dalsi editaci podpisu.
 - Po kazde zmene je vhodne vlozit podpis znovu ciste.
 
