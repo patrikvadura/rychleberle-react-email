@@ -32,17 +32,17 @@ export type SignatureEmailProps = {
 const defaultBrands: readonly Brand[] = [
   {
     name: "Distribuovaná Klinika",
-    url: "https://www.distribuovana-klinika.cz/",
+    url: "https://www.distribuovana-klinika.cz",
     color: "#008bd2",
   },
   {
     name: "Místní Lékárna",
-    url: "https://www.mistnilekarna.cz/",
+    url: "https://www.mistnilekarna.cz",
     color: "#00c940",
   },
   {
     name: "Rychlé Berle",
-    url: "https://www.rychleberle.cz/",
+    url: "https://www.rychleberle.cz",
     color: "#3fbfad",
   },
 ];
