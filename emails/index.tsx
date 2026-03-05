@@ -53,7 +53,7 @@ const defaultProps: SignatureEmailProps = {
   phone: "+420 777 364 446",
   email: "takac@rychleberle.cz",
   logoUrl:
-    "https://res.cloudinary.com/patrik-vadura/image/upload/v1772036427/rychle-berle/logo_sdruzene_vlevo_2x_t7t692.png",
+    "https://cdn.vadura.dev/rychleberle/identity/sdruzeni-identit/logo_sdruzene_vlevo@2x.png",
   brands: defaultBrands,
 };
 
@@ -73,6 +73,7 @@ export const SignatureEmail = ({
 }: SignatureEmailProps) => (
   <Html lang="cs">
     <Head>
+      <meta charSet="UTF-8" />
       <meta
         name="format-detection"
         content="telephone=no, date=no, address=no, email=no, url=no"
@@ -81,20 +82,20 @@ export const SignatureEmail = ({
       <style>{compatibilityStyles}</style>
       <Font
         fontFamily="Rubik"
-        fallbackFontFamily={["Arial", "sans-serif"]}
+        fallbackFontFamily={["Arial", "Helvetica", "sans-serif"]}
         webFont={{
-          url: "https://fonts.gstatic.com/s/rubik/v28/iJWKBXyIfDnIV7nBrXyw023e.woff2",
-          format: "woff2",
+          url: "https://fonts.gstatic.com/s/rubik/v31/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4i1UA.ttf",
+          format: "truetype",
         }}
         fontWeight={400}
         fontStyle="normal"
       />
       <Font
         fontFamily="Rubik"
-        fallbackFontFamily={["Arial", "sans-serif"]}
+        fallbackFontFamily={["Arial", "Helvetica", "sans-serif"]}
         webFont={{
-          url: "https://fonts.gstatic.com/s/rubik/v28/iJWKBXyIfDnIV7nPrXyw023e.woff2",
-          format: "woff2",
+          url: "https://fonts.gstatic.com/s/rubik/v31/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-2Y-1UA.ttf",
+          format: "truetype",
         }}
         fontWeight={600}
         fontStyle="normal"
@@ -154,7 +155,7 @@ export default SignatureEmail;
 
 SignatureEmail.PreviewProps = defaultProps;
 
-const fontStack = '"Rubik", Tahoma, Arial, sans-serif';
+const fontStack = '"Rubik", Tahoma, "Segoe UI", Arial, Helvetica, sans-serif';
 const compatibilityStyles = `
   a,
   a:link,
