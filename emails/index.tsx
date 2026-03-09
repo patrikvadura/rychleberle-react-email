@@ -207,7 +207,7 @@ const greeting = {
 };
 
 const fullNameText = {
-  margin: "0 0 2px",
+  margin: "0 0 0px",
   fontSize: "14px",
   lineHeight: "20px",
   fontWeight: 600,
@@ -217,8 +217,9 @@ const fullNameText = {
 
 const jobTitleText = {
   margin: "0 0 6px",
-  fontSize: "12px",
+  fontSize: "11px",
   lineHeight: "16px",
+  fontWeight: 600,
   fontFamily: fontStack,
 };
 
